@@ -1,5 +1,5 @@
 # postcss-presass-include
-Sass style include in SCSS.
+Sass style include
 
 Input:
 ```scss
