@@ -5,7 +5,7 @@ Input:
 ```scss
 .block {
   +foobar: 1 2, 3 4;
-  +foo(bar) {
+  +foo: bar {
     baz: qux;
   }
 }
