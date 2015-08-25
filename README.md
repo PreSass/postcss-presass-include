@@ -4,9 +4,9 @@ Sass style include
 Input:
 ```scss
 .block {
-  +foobar: 1 2, 3 4;
-  +foo: bar {
-    baz: qux;
+  +padding: 1 2 3 4, em;
+  +margin-block: blue {
+    margin: 10px;
   }
 }
 ```
@@ -14,9 +14,9 @@ Input:
 Output:
 ```scss
 .block {
-  @include foobar(1 2, 3 4);
-  @include foo(bar) {
-    baz: qux;
+  @include padding(1 2 3 4, em);
+  @include margin-block(blue) {
+    margin: 10px;
   }
 }
 ```
